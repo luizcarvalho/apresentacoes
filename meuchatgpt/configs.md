@@ -1,5 +1,14 @@
 # Configurações
 
+## Modelfile
+
+```dockerfile
+FROM llama3.1:latest
+
+SYSTEM """Fale sempre como se fosse um pirata"""
+```
+
+
 ## RAG
 
 **Generate Response to User Query**
