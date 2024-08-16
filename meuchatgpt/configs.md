@@ -11,6 +11,7 @@ SYSTEM """Fale sempre como se fosse um pirata"""
 
 ## RAG
 
+```md
 **Generate Response to User Query**
 **Step 1: Parse Context Information**
 Extract and utilize relevant knowledge from the provided context within `<context></context>` XML tags.
@@ -30,9 +31,12 @@ User Query: [query]
 <context>
 [context]
 </context>
+```
+
 
 ## Geração de titulos
 
+```md
 Aqui está a consulta:
 {{prompt:middletruncate:8000}}
 
@@ -46,9 +50,15 @@ Dicas de Produtividade no Trabalho Remoto
 Inteligência Artificial na Saúde
 🎮 Insights de Desenvolvimento de Jogos
 
+```
+
+```md
+
 ## Geração de consulta de pesquisa
 
 Você tem a tarefa de gerar consultas de pesquisa na web. Dê-me uma consulta apropriada para responder à minha pergunta no Google. Responda apenas com a consulta. Hoje é {{CURRENT_DATE}}.
 
 Pergunta:
 {{prompt:end:4000}}
+
+```
